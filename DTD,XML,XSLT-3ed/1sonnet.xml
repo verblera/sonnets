@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="3.xsl"?>
+<document>
+    <start id="31" origin= "French" type="Baudlairean"/>
+    <author>
+        <name>
+            <firstName>Joachim</firstName>
+            <namePreposition>Du</namePreposition>
+            <surname>Bellay</surname>
+        </name>
+        <yearsOfLife>
+            <yearOfBirth>1522</yearOfBirth>
+            <yearOfDeath>1560</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    <sonnet>
+        <firstLine>Heureux Qui Comme Ulysse</firstLine>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Heureux  <actor>qui</actor>, comme Ulysse, <caesura/> <act>a fait</act> un beau <rhyme partOfSpeech="noun" sort="a" type="enclosed">voyage</rhyme></line>
+            <line>Ou comme cestuy-là <caesura/> <actor>qui </actor><act>conquit </act>la <rhyme partOfSpeech="noun" type="enclosed" sort="b">toison</rhyme></line>
+            <line>Et puis <act>est retourné</act>,<caesura/>plein d’usage et <rhyme partOfSpeech="noun" sort="b" type="enclosed">raison</rhyme>,</line>
+            <line><act>Vivre</act> entre ses parents<caesura/> le reste de son<rhyme partOfSpeech="noun" type="enclosed" sort="a">âge </rhyme>!</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Quand <act>reverrai</act>-<actor>je</actor>,hélas,<caesura/>de mon petit <rhyme partOfSpeech="noun" sort="a" type="enclosed">village</rhyme></line>
+            <line><act>Fumer </act><actor>la cheminée</actor><caesura/> et en quelle <rhyme partOfSpeech="noun" type="enclosed" sort="b">saison</rhyme></line>
+            <line> <act>Reverrai</act>-<actor>je</actor> le clos<caesura/> de ma pauvre <rhyme partOfSpeech="noun" type="enclosed" sort="b">maison</rhyme></line>
+           <!-- davantage =and many more, a tricky part of speech to define -->
+            <line><actor>Qui</actor> m’<act>est</act> une province,<caesura/>et beaucoup <rhyme partOfSpeech="pronoun" sort="a" type="enclosed">davantage</rhyme></line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <!-- in these two stanzas the actors are rhymed, and since the element cannot be declared as PCDATA or EMPTY, actors are missed -->
+            <line>Plus me <act>plaît</act> le <actor> séjour </actor><caesura/>qu’<act>ont bâti </act>  mes <rhyme partOfSpeech="noun" type="coupled" sort="c">aïeux</rhyme></line>
+            <line>Que des <actor>palais </actor>Romains <caesura/>le front <rhyme partOfSpeech="adjective" sort="c" type="coupled">audacieux</rhyme>,</line>
+            <line>Plus que le <actor>marbre</actor> dur:<caesura/> me <act>plaît </act> l’<actor>ardoise</actor>  <rhyme partOfSpeech="adjective" type="enclosed" sort="d">fine</rhyme></line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Plus mon <actor>Loir</actor> gaulois,<caesura/> que le <actor>Tibre</actor> <rhyme partOfSpeech="adjective" sort="e" type="enclosed">latin</rhyme>,</line>
+            <line>Plus mon petit <actor>Liré,</actor><caesura/> que le <actor>mont </actor><rhyme partOfSpeech="adjective" type="enclosed" sort="e">Palatin</rhyme>,</line>
+            <line>Et plus que l’<actor>air</actor> marin <caesura/> <actor>la doulceur</actor><rhyme partOfSpeech="adjective" sort="d" type="enclosed"> angevine</rhyme>.</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>

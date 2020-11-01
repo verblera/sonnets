@@ -1,0 +1,65 @@
+/** This CSS does not work properly in IE, validaion is unstable ??
+Compatible with Google Chrome and Mozilla Firefox**/
+
+body { 
+font-family: Arial, Helvetica, sans-serif;
+background-image: url("image.jpeg");
+}
+span {color: black;
+background-color: rgb(249,245,239);
+border-style: none none dotted none;
+font-style: italic;
+ 
+}
+tr {background-color:rgb(249,245,239);
+	opacity:70%;}
+h1 {
+	background-color: rgb(249,245,239);
+	color: #004280;
+text-align:center;
+opacity:75%;
+  font-size:130%;
+  }
+  
+  h2 {
+	  margin-left: 15%;
+	  margin-right: 30%; 
+  }
+  
+  h2{background-color: rgb(249,245,239);
+	opacity:90%;
+	text-align:center;}
+div {
+	background-color: rgb(249,245,239);
+	opacity:90%;
+	color: #001a33;
+	text-align: left; 
+	margin-left: 15%;
+	margin-right: 30%;
+}
+p { background-color: rgb(249,245,239);
+	opacity:90%;
+}
+
+a {
+	font-size: 120%; 
+	font-style: strong; 
+	
+}
+
+div.HomePage {background-color: white; 
+text-align: center;
+border-style: solid;
+border-color: rgb(249,245,239);
+border-width: 5px; }
+
+p.title {text-align: center;
+text-transform: uppercase;
+font-style: italic;
+margin-left: 15%;
+margin-right: 30%; }
+
+table {margin-left: auto;
+margin-right:auto; }
+
+

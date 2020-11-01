@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<document>
+    <start id="61" origin= "French" type="Baudelairean"/>
+    <author>
+        <name>
+            <firstName>Joachim</firstName>
+            <namePreposition>Du</namePreposition>
+            <surname>Bellay</surname>
+        </name>
+        <yearsOfLife>
+            <yearOfBirth>1522</yearOfBirth>
+            <yearOfDeath>1560</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    <sonnet>
+        <firstLine>Qui est ami du coeur est ami de la bourse,</firstLine>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line><actor>Qui</actor><act> est </act>du coeur<caesura/><act> est </act>ami de la <rhyme partOfSpeech="noun" sort="a" type="enclosed">bourse</rhyme>,</line>
+            <line><actor>Ce </actor><act>dira </act>quelque honnête <caesura/>et hardi <rhyme partOfSpeech="noun" sort="b" type="enclosed">demandeur</rhyme>,</line>
+            <line><actor>Qui</actor> de l'argent d'autrui<caesura/> libéral <rhyme partOfSpeech="noun" sort="b" type="enclosed">dépendeur</rhyme></line>
+            <line>Lui-même à l’hôpital <caesura/>s'en <act>va</act> toute la <rhyme partOfSpeech="noun" sort="a" type="enclosed">course</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Mais songe là-dessus<caesura/> <actor>qu’</actor>il n' <act>est</act> si vive <rhyme partOfSpeech="noun" type="enclosed" sort="a">source</rhyme></line>
+            <line>Qu'<actor>on </actor>ne <act>puisse épuiser</act>,<caesura/>ni si riche <rhyme partOfSpeech="noun" sort="b" type="enclosed">prêteur</rhyme></line>
+            <line><actor>Qui</actor> ne <act>puisse</act> à la fin <caesura/><act>devenir </act><rhyme partOfSpeech="noun" type="enclosed" sort="b">emprunteur</rhyme>,</line>
+            <line>Ayant affaire à gens<caesura/><actor> qui </actor>n'<act>ont </act>point de <rhyme partOfSpeech="noun" sort="a" type="enclosed">ressource</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Gordes, si <actor>tu </actor><act>veux vivre </act><caesura/>heureusement <rhyme partOfSpeech="adjective" type="coupled" sort="c">romain</rhyme>,</line>
+            <line><act>Sois </act>large de faveur,<caesura/>mais <act>garde</act> que ta <rhyme partOfSpeech="noun" sort="c" type="coupled">main</rhyme></line>
+            <line>Ne <act>soit </act>à tous venants <caesura/> trop largement <rhyme partOfSpeech="participle" type="enclosed" sort="d">ouverte</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Par l'un <actor>on </actor><act>peut gagner</act><caesura/> même son <rhyme partOfSpeech="noun" sort="e" type="enclosed">ennemi</rhyme>,</line>
+            <line>Par l’autre bien souvent<caesura/> on <act>perd</act> un bon <rhyme partOfSpeech="noun" sort="e" type="enclosed">ami</rhyme>,</line>
+            <line>Et quand <actor>on</actor><act> perd</act> l'argent,<caesura/>c’<act>est</act> une double <rhyme partOfSpeech="noun" sort="d" type="enclosed">perte</rhyme>.</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>

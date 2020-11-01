@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<document>
+    <start id="5" origin= "French" type="Baudlairean"/>
+    <author>
+        <name>
+            <firstName>Joachim</firstName>
+            <namePreposition>Du</namePreposition>
+            <surname>Bellay</surname>
+        </name>
+        <yearsOfLife>
+            <yearOfBirth>1522</yearOfBirth>
+            <yearOfDeath>1560</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    <sonnet>
+        <firstLine>Ceux qui sont amoureux, leurs amours chanteront</firstLine>
+        <stanza>
+            <!-- in these lines, rhymes are both verb and acts which cannot be accepted by dtd-->
+            <br stanzaType="quatrain"/> <!-- quatrain = 4 lines-->
+            <line>Ceux <actor>qui </actor><act>sont </act>amoureux,<caesura/> leurs <actor>amours </actor><rhyme partOfSpeech="verb" sort="a" type="enclosed">chanteront</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>aiment </act> l'honneur, <caesura/><act>chanteront</act>de la <rhyme partOfSpeech="noun" sort="b" type="enclosed">gloire</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>sont </act> près du roi,<caesura/><act>publieront </act>sa <rhyme partOfSpeech="noun" type="enclosed" sort="b">victoire</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>sont </act>courtisans, <caesura/>leurs  <actor>faveurs </actor><rhyme partOfSpeech="verb" sort="a" type="enclosed">vanteront</rhyme>,</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Ceux <actor>qui </actor><act>aiment</act> les arts,<caesura/>les sciences <rhyme partOfSpeech="verb" type="enclosed" sort="a"> diront</rhyme>,</line>
+            <line>Ceux <actor>qui </actor><act>sont</act> vertueux, <caesura/>pour tels se <act>feront </act><rhyme partOfSpeech="verb" sort="b" type="enclosed">croire</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>aiment</act> le vin, <caesura/><act>deviseront </act> de <rhyme partOfSpeech="verb" sort="b" type="enclosed"></rhyme>boire</line>
+            <line>Ceux <actor>qui </actor><act>sont </act>de loisir,<caesura/>de fables <rhyme partOfSpeech="verb" type="enclosed" sort="a">écriront</rhyme>,</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/> <!-- terza=3 lines-->
+            <line>Ceux <actor>qui </actor><act>sont </act>médisants, <caesura/>se <act>plairont </act>à <rhyme partOfSpeech="verb" sort="c" type="enclosed">médire</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>sont </act>moins fâcheux, <caesura/><act>diront </act>des mots pour <rhyme partOfSpeech="verb" type="enclosed" sort="c">rire</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>sont </act>plus vaillants,<caesura/> <act>vanteront</act> leur <rhyme partOfSpeech="noun" sort="d" type="enclosed">valeur</rhyme></line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Ceux <actor>qui </actor>se <act>plaisent </act>trop, <caesura/><act>chanteront</act> leur <rhyme partOfSpeech="noun" type="enclosed" sort="e">louange</rhyme></line>
+            <line>Ceux <actor>qui </actor><act>veulent </act> <act>flatter</act>, <caesura/><act>feront</act>  d'un diable un <rhyme partOfSpeech="noun" sort="e" type="enclosed">ange</rhyme></line>
+            <line>Moi, <actor>qui</actor> <act>suis</act> malheureux, <caesura/><actor>je </actor><act>plaindrai </act>mon <rhyme partOfSpeech="noun" type="enclosed" sort="d">malheur</rhyme>.</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>

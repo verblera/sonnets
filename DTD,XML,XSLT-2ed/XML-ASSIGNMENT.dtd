@@ -1,0 +1,56 @@
+<!ELEMENT document (start, author?, sonnet, end)>
+<!ELEMENT start EMPTY>
+
+<!--SECTION FOR GENERAL INFO ABOUT A SONNET AND ITS AUTHOR-->
+
+<!--ID is an identifier for easier search
+origin stands for origin of author/poem (!!adjective)
+type stands for a type of sonnet (Shakespearean, Petrarchan, etc)
+alternativeType stands if a user believes that a sonnet has charachteristics of  two sonnet types
+-->
+<!ATTLIST start id CDATA #REQUIRED origin CDATA  #IMPLIED 
+type CDATA #REQUIRED alternativeType CDATA #IMPLIED>
+
+<!--Information about author -->
+<!ELEMENT author (name, yearsOfLife) >
+<!ELEMENT name (firstName, namePreposition?, surname) >
+<!ELEMENT firstName (#PCDATA)>
+<!-- name prepositions such as von, de, of--> 
+<!ELEMENT namePreposition (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT yearsOfLife (yearOfBirth, yearOfDeath?)>
+<!ELEMENT yearOfBirth (#PCDATA) >
+<!ELEMENT yearOfDeath (#PCDATA) >
+
+<!-- SECTION FOR A SONNET ITSELF-->
+
+<!-- firstLine means that the sonnet's title is identicaltot the first line (no title)-->
+<!ELEMENT sonnet ((title|firstLine), stanza+) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT firstLine (#PCDATA) >
+<!ELEMENT stanza (br, line+) >
+
+<!-- each stanza is separated with a blank line-->
+<!ELEMENT br EMPTY >
+
+<!-- quatrain = 4 lines in a stanza; terza = 3 lines, sestet = 6 lines, octave = 8, couplet=2 lines, 
+typical division for different types of sonnets-->
+<!ATTLIST br stanzaType (quatrain | terza | sestet | octave| couplet| notDefined) #REQUIRED>
+
+<!-- each line can contain caesura (0 or 1), rhyme (0 or more), act(=predicate), actor (noun, who?) -->
+<!ELEMENT line (#PCDATA| caesura| rhyme| actor| act)* >
+
+<!-- caesura is a pause inside a line-->
+<!ELEMENT caesura EMPTY>
+<!ELEMENT actor (#PCDATA) >
+<!ELEMENT act (#PCDATA) >
+<!ELEMENT rhyme (#PCDATA) >
+
+<!-- sort of rhyme is a scheme of rhymes' positions (for example, ABAB: 
+the rhyme for the first line is in the third line, for the second in the fourth;),
+and type is a way in which rhymes are placed between themselves: coupled : next to each other; enclosed: inside another rhyme, 
+for more info look https://literarydevices.net/rhyme-scheme/
+the recommended list might be extended-->
+<!ATTLIST rhyme partOfSpeech CDATA #REQUIRED sort (a| b| c| d| e| f| g |notDefined) #REQUIRED
+type (coupled| enclosed| notSpecified) #REQUIRED>
+<!ELEMENT end EMPTY >

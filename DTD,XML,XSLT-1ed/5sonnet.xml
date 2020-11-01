@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<document>
+    <start id="106" type="Baudelairean" origin="French"/>
+    <author>
+        <name>
+            <firstName>Charles</firstName>
+            <surname>Baudelaire</surname>
+        </name>
+        <yearsOfLife>
+            <yearOfBirth>1821</yearOfBirth>
+            <yearOfDeath>1867</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    
+    <sonnet>
+        <title>La Muse malade</title>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Ma pauvre muse,  hélas! <caesura/> qu'<act>as</act>-<actor>tu</actor> donc ce <rhyme partOfSpeech="noun" sort="a" type="enclosed">matin</rhyme>?</line>
+            <line>Tes <actor>yeux </actor> creux <act>sont peuplés </act><caesura/>de visions <rhyme partOfSpeech="adjective" sort="b" type="enclosed">nocturnes</rhyme>,</line>
+            <line>Et <actor>je</actor> <act>vois </act>à tour <caesura/>réfléchis sur ton <rhyme partOfSpeech="noun" sort="a" type="enclosed">teint</rhyme></line>
+            <line>La folie et l'horreur,<caesura/> froides et <rhyme partOfSpeech="adjective" sort="b" type="enclosed">taciturnes</rhyme>.</line>
+        </stanza>
+        
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Le <actor>succube </actor>verdâtre <caesura/>et le <actor>rose</actor> <rhyme partOfSpeech="adjective" sort="a" type="enclosed">lutin</rhyme></line>
+            <line>T'<act>ont</act>-<actor>ils</actor> <act>versé </act>la peur<caesura/> er l'amour de leurs <rhyme partOfSpeech="noun" sort="b" type="enclosed">urnes</rhyme>?</line>
+            <line>Le <actor>cauchemar</actor>, <caesura/>d'un poing despotique et <rhyme partOfSpeech="adjective" sort="a" type="enclosed">mutin</rhyme></line>
+            <line>T'<act>a</act>-t-<actor>il</actor> noyée au fond <caesura/>d'un fabuleux <rhyme partOfSpeech="noun" type="enclosed" sort="b">Minturnes</rhyme>?</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line><actor>Je</actor> <act>voudrais</act> qu'exhalant <caesura/> l'odeur de la <rhyme partOfSpeech="noun" sort="c" type="coupled">santé</rhyme></line>
+            <line>Ton <actor>sein</actor> de pensers forts <caesura/><act>fût </act> toujours <rhyme partOfSpeech="participle" sort="c" type="coupled">fréquenté</rhyme>,</line>
+            <line>Et que ton <actor> sang </actor>chrétien <caesura/><act>coulât </act>à flots <rhyme partOfSpeech="adjective" sort="d" type="coupled">rythmiques</rhyme>,</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Comme les sons nombreux <caesura/>des syllabes <rhyme partOfSpeech="adjective" sort="d" type="coupled">antiques</rhyme>,</line>
+            <line>Où règnent tour à tour<caesura/> le père des <rhyme partOfSpeech="noun" sort="e" type="coupled">chansons</rhyme>,</line>
+            <line>Phoebus, et le grand Pan, <caesura/>le seigneur des <rhyme partOfSpeech="noun" sort="e" type="coupled">moissons</rhyme>.</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>

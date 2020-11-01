@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<document>
+    <start id="1" origin= "French" type="Baudelairean"/>
+    <author>
+            <name>
+                <firstName>Joachim</firstName>
+                <namePreposition>Du</namePreposition>
+                <surname>Bellay</surname>
+            </name>
+        <yearsOfLife>
+            <yearOfBirth>1522</yearOfBirth>
+            <yearOfDeath>1560</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    <sonnet>
+        <firstLine>Heureux celui qui peut longtemps suivre la guerre</firstLine>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Heureux <actor>celui</actor><caesura/><actor> qui </actor><act>peut </act>longtemps<caesura/> suivre la <rhyme partOfSpeech="noun" sort="a" type="enclosed">guerre</rhyme></line>
+            <line>Sans mort,<caesura/>ou sans blessure,<caesura/>ou sans longue <rhyme partOfSpeech="noun" sort="b" type="enclosed">prison</rhyme>!</line>
+            <line>Heureux <actor>qui </actor>longuement <act>vit </act><caesura/>hors de sa <rhyme partOfSpeech="noun" type="enclosed" sort="b">maison</rhyme></line>
+            <line>Sans dépendre son bien<caesura/> ou sans vendre sa<rhyme partOfSpeech="noun" sort="a" type="enclosed"> terre</rhyme>!</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Heureux <actor>qui</actor><act> peut </act>en cour<caesura/>quelque faveur <rhyme partOfSpeech="verb" type="enclosed" sort="a">acquerre</rhyme></line>
+            <line>Sans crainte de l’envie<caesura/> ou de quelque <rhyme partOfSpeech="noun" sort="b" type="enclosed">traïson </rhyme>!</line>
+            <line>Heureux <actor>qui</actor><act> peut</act> longtemps <caesura/> sans danger de <rhyme partOfSpeech="noun" type="enclosed" sort="b">poison</rhyme></line>
+            <line><act>Jouir</act> d’un chapeau rouge <caesura/>ou des clefs de saint <rhyme partOfSpeech="noun" sort="a" type="enclosed">Pierre </rhyme>!</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Heureux <actor>qui </actor>sans péril <caesura/><act>peut </act>la mer <rhyme partOfSpeech="verb" type="coupled" sort="c">fréquenter </rhyme>!</line>
+            <line>Heureux <actor>qui </actor>sans procès <caesura/>le palais <act>peut </act><rhyme partOfSpeech="verb" sort="c" type="coupled">hanter </rhyme>!</line>
+            <line>Heureux <actor>qui </actor><act>peut</act> sans mal<caesura/><act> vivre </act>l’âge d’un <rhyme partOfSpeech="noun" type="enclosed" sort="d">homme </rhyme>!</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="terza"/>
+            <line>Heureux <actor>qui </actor>sans souci <caesura/><act>peut garder </act> son <rhyme partOfSpeech="noun" sort="e" type="enclosed">trésor</rhyme>,</line>
+            <line>Sa femme sans soupçon,<caesura/>et plus heureux <rhyme partOfSpeech="adverb" type="enclosed" sort="e">encor</rhyme></line>
+            <line><actor>Qui</actor><act>a pu </act> sans peler <caesura/><act>vivre</act> trois ans à <rhyme partOfSpeech="noun" sort="d" type="enclosed">Rome</rhyme>!</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<document>
+    <start id="130" origin= "English" type="Shakespearean"/>
+    <author>
+        <name>
+            <firstName>William</firstName>
+            <surname>Shakespeare</surname>
+        </name>
+        <yearsOfLife>
+            <yearOfBirth>1564</yearOfBirth>
+            <yearOfDeath>1616</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    
+    <sonnet>
+        <firstLine>My mistress' eyes are nothing like the sun</firstLine>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>My mistress' <actor>eyes </actor><act>are </act> nothing like the <rhyme partOfSpeech="noun" sort="a" type="enclosed">sun</rhyme>;</line>
+            <line><actor>Colar  </actor> <act>is </act> far more red than her lips'  <rhyme partOfSpeech="noun" sort="b" type="enclosed">red</rhyme>;</line>
+            <line>If  <actor>snow </actor> <act>be </act> white, why then her <actor>breasts </actor> <act>are </act><rhyme partOfSpeech="adjective" sort="a" type="enclosed">dun</rhyme>;</line>
+            <line>If <actor>hairs </actor> <act> be </act> wires, black <actor>wires </actor> <act>grow </act>on her <rhyme partOfSpeech="noun" sort="b" type="enclosed">head</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line><actor>I </actor><act>have seen</act> roses damasked, red and <rhyme partOfSpeech="adjective" sort="c" type="enclosed">white</rhyme>,</line>
+            <line>But no such roses <act>see </act>  <actor>I </actor> in her <rhyme partOfSpeech="noun" sort="d" type="enclosed">cheeks</rhyme>;</line>
+            <line>And in some perfumes <act>is </act> there more <rhyme partOfSpeech="noun" sort="c" type="enclosed">delight</rhyme></line>
+            <line>Than in the breath <actor>that </actor>from my mistress <rhyme partOfSpeech="verb" sort="d" type="enclosed">reeks</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line><actor>I </actor> <act>love </act> to hear <actor>her </actor><act>speak </act>, yet well <actor>I </actor><rhyme partOfSpeech="verb" sort="e" type="enclosed">know</rhyme></line>
+            <line>That <actor>music </actor> <act>hath </act>a far more pleasing<rhyme partOfSpeech="noun" sort="f" type="enclosed">sound</rhyme>;</line>
+            <line><actor>I </actor><act>grant </act> <actor>I </actor>never <act>saw </act>a goddess <rhyme partOfSpeech="verb" sort="e" type="enclosed">go</rhyme>;</line>
+            <line>My <actor>mistress</actor> when <actor>she </actor> <act>walks </act><act> treads </act>on the <rhyme partOfSpeech="sound" sort="f" type="enclosed">ground</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="couplet"/>
+            <line>And yet, by heaven, <actor>I </actor><act>think</act> my love as <rhyme partOfSpeech="adjective" sort="g" type="coupled">rare</rhyme>,</line>
+            <line>As any <actor>she </actor><act>belied</act> with false <rhyme partOfSpeech="verb" sort="g" type="coupled">compare</rhyme>.</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>

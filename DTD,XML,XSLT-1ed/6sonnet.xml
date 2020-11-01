@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "XML-ASSIGNMENT.dtd">
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<document>
+    <start id="1" type="OneginStanza" origin="Russian"/>
+    <author>
+        <name>
+            <firstName>Alexander</firstName>
+            <surname>Pushkin</surname>
+        </name>
+        <yearsOfLife>
+            <yearOfBirth>1799</yearOfBirth>
+            <yearOfDeath>1837</yearOfDeath>
+        </yearsOfLife>
+    </author>
+    <sonnet>
+        <firstLine>Мой дядя самых честных правил...</firstLine>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>"Мой <actor>дядя </actor>самых честных <rhyme partOfSpeech="noun" sort="a" type="enclosed">правил</rhyme>,</line>
+            <line>Когда не в шутку <rhyme partOfSpeech="verb" sort="b" type="enclosed">занемог</rhyme>,</line>
+            <line><actor>Он</actor> уважать себя <rhyme partOfSpeech="veb" sort="a" type="enclosed">заставил</rhyme></line>
+            <line>И лучше выдумать не <rhyme partOfSpeech="verb" sort="b" type="enclosed">мог</rhyme>.</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Его <actor>пример </actor>другим <rhyme partOfSpeech="noun" sort="c" type="coupled">наука</rhyme>;</line>
+            <line>Но, боже мой, какая <rhyme partOfSpeech="noun" sort="c" type="coupled">скука</rhyme></line>
+            <line>С больным <act>сидеть </act>и день, и <rhyme partOfSpeech="noun" sort="d" type="coupled">ночь</rhyme>,</line>
+            <line>Не отходя ни шагу <rhyme partOfSpeech="adverb" sort="d" type="coupled">прочь</rhyme>!</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="quatrain"/>
+            <line>Какое низкое <rhyme partOfSpeech="noun" sort="e" type="enclosed">коварсто</rhyme></line>
+            <line>Полуживого <rhyme partOfSpeech="verb" sort="f" type="enclosed">забавлять</rhyme>,</line>
+            <line>Ему подушки <rhyme partOfSpeech="verb" sort="f" type="enclosed">поправлять</rhyme>,</line>
+            <line>Печально <act>подносить </act><rhyme partOfSpeech="noun" sort="e" type="enclosed">лекарство</rhyme>:</line>
+        </stanza>
+        <stanza>
+            <br stanzaType="couplet"/>
+            <line><act>Вздыхать </act>и <act>думать про </act><rhyme partOfSpeech="pronoun" sort="g" type="coupled">себя</rhyme>:</line>
+            <line>Когда же <actor>черт </actor><act>возьмет </act><rhyme partOfSpeech="pronoun" sort="g" type="coupled">тебя</rhyme>!"</line>
+        </stanza>
+    </sonnet>
+    <end/>
+</document>
